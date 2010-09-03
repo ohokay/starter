@@ -1,0 +1,15 @@
+/* ---------- group (aka, clearfix) */
+
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* IE6 */
+* html .group { height: 1%; }
+
+/*IE7 */
+.group { min-height: 1px; }
