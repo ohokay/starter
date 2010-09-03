@@ -1,0 +1,9 @@
+A basic boilerplate project. Includes jQuery 1.4.3 and jQuery UI 1.8.
+
+Protip: Add this to your ~/.bash_profile for super sexy commandline access.
+
+function starter() {
+  git clone git@github.com:ohokay/starter.git $1
+}
+
+$ starter <project_name>
