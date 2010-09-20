@@ -4,8 +4,8 @@ Includes jQuery (1.4.3), jQuery UI (1.8), an XHTML and HTML5 skeleton, and basic
 
 Protip: Add this base script to your profile.
 
-function starter() {
-  git clone git@github.com:ohokay/starter.git $1
+function project() {
+  git clone git://github.com/ohokay/starter.git $1 && cd $1 && rm -rf README
 }
 
 $ starter <project_name>
