@@ -1,6 +1,8 @@
-A basic boilerplate project. Includes jQuery 1.4.3 and jQuery UI 1.8.
+My basic boilerplate project. 
 
-Protip: Add this to your ~/.bash_profile for super sexy commandline access.
+Includes jQuery (1.4.3), jQuery UI (1.8), an XHTML and HTML5 skeleton, and basic css helpers; including a clearfix class (.group) and a standard whitespace reset. 
+
+Protip: Add this base script to your profile.
 
 function starter() {
   git clone git@github.com:ohokay/starter.git $1
