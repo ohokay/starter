@@ -3,7 +3,7 @@ My basic boilerplate project.
 Includes jQuery (1.4.3), jQuery UI (1.8), an XHTML and HTML5 skeleton, and basic css helpers; including a clearfix class (.group) and a standard whitespace reset. 
 
 function project() {
-  git clone git://github.com/ohokay/starter.git $1 && cd $1 && rm -rf README
+  git clone git://github.com/ohokay/starter.git $1 && cd $1 && rm -rf README && rm -rf .git && rm -rf .gitignore
 }
 
-$ starter <project_name>
+$ project <project_name>
