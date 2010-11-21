@@ -13,3 +13,13 @@
 
 /*IE7 */
 .group { min-height: 1px; }
+
+/* Make's image scaling in IE less shitty */
+
+img { 
+  -ms-interpolation-mode: bicubic;
+}
+
+.hidden { 
+  display: none !important;
+}
